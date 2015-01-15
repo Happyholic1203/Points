@@ -6,4 +6,8 @@ router.get('/', function(req, res) {
     res.json({name: 'Henry'});
 });
 
+router.post('/', function(req, res) {
+    res.json({name: 'Henry'});
+});
+
 module.exports = router;
