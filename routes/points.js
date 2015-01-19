@@ -52,4 +52,10 @@ router.post('/redeem', function(req, res) {
     res.json({status: 'ok', availablePoints: 10});
 });
 
+router.post('/get', function(req, res) {
+    var userId = req.param('userId');
+
+    res.json({status: 'ok', availablePoints: 10});
+});
+
 module.exports = router;
