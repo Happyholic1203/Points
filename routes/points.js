@@ -31,7 +31,7 @@ router.post('/collect', function(req, res) {
 
     // TODO: collect points
 
-    res.json({status: 'ok', id: uid, cert: cert});
+    res.json({status: 'ok', availablePoints: 10});
 });
 
 router.post('/redeem', function(req, res) {
